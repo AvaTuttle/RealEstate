@@ -5,3 +5,38 @@
 body{
     font-family: Arial;
 }
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+h1,h2,h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+/*header*/
+header{
+    background-image: url(realEstate-img-main/header.jpg);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+/*utilities*/
+.container{
+    width: 70%;
+    margin-left: 40px;
+    margin-right: auto;
+}
+/*nav menu*/
+.nav-menu-bar{
+    display: flex;
+    justify-content: space-around;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
