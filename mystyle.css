@@ -66,6 +66,15 @@ img{
     background-color:  rgb(209, 179, 10);
     color:white;
 }
+.houses-container{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.house-block{
+    margin: auto;
+    padding: 20px;
+}
 /*nav menu*/
 .menu a{
     color: white;
