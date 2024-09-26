@@ -137,7 +137,7 @@ legend{
     font-size: 12px;
 }
 fieldset{
-    border: 1px;
+    border: 1px solid gray;
     padding: 20px;
     border-radius: 10px;
 }
