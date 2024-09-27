@@ -1,0 +1,255 @@
+/*global*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Nunito", sans-serif;
+}
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+h1,h2,h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+img{
+    max-width: 100%;
+}
+
+/*header*/
+.site-header{
+    background-image: url(realEstate-img-main/header.jpg);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+.site-header a{
+    color: white;
+}
+.bar-menu{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+/*about*/
+.about-container{
+    display: flex;
+    justify-content: space-between;
+}
+/*utilities*/
+.container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-us-container{
+    display: block;
+    text-align: center;
+}
+.about-item{
+    margin-right: 30px;
+}
+.blog-body-container{
+    background-color: rgba(128, 128, 128, 0.192);
+}
+.blog-container{
+    text-align: center;
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color:  rgb(209, 179, 10);
+    color:white;
+}
+.houses-container{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.house-block{
+    margin: auto;
+    padding: 20px;
+}
+.about-block{
+    width: 60%;
+    margin-bottom: 20px;
+}
+/*nav menu*/
+.menu a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+/*houses*/
+.houses-item-text{
+    padding: 10px;
+}
+.houses-item{
+    background-color: #dedede;
+}
+.price{
+    color: green;
+    font-weight: bold;
+}
+.icon-container{
+    display: flex;
+    justify-content: space-around;
+}
+.icon-number{
+    display: flex;
+}
+.icon-number-img{
+    margin-right: 20px;
+}
+.icon-p-space{
+    margin-left: 10px;
+}
+/*contacts*/
+.contact-header{
+    background-color: orange;
+    height: 150px;
+    color: black;
+}
+.contact-header a{
+    color: black;
+}
+/*form-containers*/
+.form-container{
+    background-color: #dedede;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.form-control{
+    margin-bottom: 20px;
+}
+.form-control input,
+.form-control textarea{
+    border: none;
+    width: 70%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.form-control label{
+    display: inline-block;
+    width: 150px;
+}
+legend{
+    font-size: 12px;
+}
+fieldset{
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+select {
+    width: auto;
+    padding: 8px;
+    border-radius: 5px; 
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+}
+.checkbox-container{
+    margin-right: 20px;
+}
+/*footer*/
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #dedede;
+    height: 150px;
+    align-items: center;
+    margin-top: 50px;
+}
+.privacy-txt{
+    display: flex;
+}
+.privacy-txt p:last-of-type{
+    border-left: 1px solid black;
+    padding-left: 10px;
+    margin-left: 10px;
+    text-decoration: underline;
+    font-weight: 900;
+}
+.icon-container2{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 20px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+/*media-changes*/
+@media(max-width:768px){
+    .bar-menu{
+        flex-direction: column;
+        height: 200px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu a{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+@media(max-width:768px){
+    .about-container{
+        flex-direction: column;
+    }
+    .about-item{
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    .about-item h3{
+        text-align: center;
+    }
+    .about-item img{
+        display: block;
+        margin: 20px auto;
+    }
+    h2{
+        text-align: center;
+    }
+    .about-block{
+       width: 96%;
+       margin-right: 10px;
+       margin-left: 10px;
+    }
+}
+@media(max-width:768px){
+    .container{
+        width: 98%;
+    }
+    .houses-container{
+        flex-direction: column;
+        
+        
+    }
+    .houses-item{
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+
